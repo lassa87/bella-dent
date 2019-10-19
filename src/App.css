@@ -1,22 +1,42 @@
-.App {
+.contactInfo {
+  font-size: 1rem;
+  font-style: italic;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.textCenter {
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-cent {
+  display:flex;
+  justify-content:space-around;
+  align-items:center
 }
-
-.App-link {
-  color: #09d3ac;
+.textJustify {
+  text-align: justify;
+}
+/* image meny front page */
+.imageMeny {
+  transition: all 1s linear;
+}
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.imageContainer:hover .imageMeny {
+  transform: scale(1.2);
+}
+.popUpText {
+  position: absolute;
+  bottom: 0;
+  transform: translate(100%, 100%);
+  transition: all 1s linear;
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  background-color: rgba(0,0,0,0.5);
+  color:#12fe06;
+}
+.imageContainer:hover .popUpText{
+  transform: translate(0,0);
 }

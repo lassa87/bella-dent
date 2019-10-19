@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import Header from './components/Header'
+import Mcontent from './components/MainContent'
+import Footer from './components/Footer'
+import Decija from './components/comp_content/Decija'
+import Estetska from './components/comp_content/Estetska'
+import Hirurgija from './components/comp_content/Hirurgija'
+import Konzervativna from './components/comp_content/Konzervativna'
+import Ortodoncija from './components/comp_content/Ortodoncija'
+import Paradontologija from './components/comp_content/Paradontologija'
+import Protetika from './components/comp_content/Protetika'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Mcontent} />
+          <Route path="/Decija" component={Decija} />
+          <Route path="/Estetska" component={Estetska} />
+          <Route path="/Hirurgija" component={Hirurgija} />
+          <Route path="/Konzervativna" component={Konzervativna} />
+          <Route path="/Ortodoncija" component={Ortodoncija} />
+          <Route path="/Paradontologija" component={Paradontologija} />
+          <Route path="/Protetika" component={Protetika} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+export default App
