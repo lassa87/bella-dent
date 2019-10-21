@@ -8,10 +8,7 @@ class Hirurgija extends Component {
             <div>
                 <Slider />
                 <Container>
-                    <Row>
-                        <Col md="3" xs="4">
-                            SLIKE
-                        </Col>
+                    <Row className="p-3">
                         <Col>
                             <h3 className='textCenter'>Oralna hirurgija</h3>
                             <p className='textCenter'>
@@ -29,6 +26,9 @@ class Hirurgija extends Component {
                                 - Ugradnja impantata <br />
                                 - Zatvaranje sinusa
                             </p>
+                        </Col>
+                        <Col md="5">
+                            {/* <img src={f11} width='100%' /> */}
                         </Col>
                     </Row>
                 </Container>
