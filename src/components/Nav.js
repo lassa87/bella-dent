@@ -49,11 +49,6 @@ const NavigationMeny = (props) => {
                         <NavLink style={linkColor}>GALERIJA</NavLink>
                     </NavItem>
                 </Link>
-                <Link to="/kontakt">
-                    <NavItem>
-                        <NavLink style={linkColor}>KONTAKT</NavLink>
-                    </NavItem>
-                </Link>
             </Nav>
         </div>
     );
