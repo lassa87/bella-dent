@@ -8,8 +8,22 @@ import St3 from '../assets/images/st3.jpg'
 import St4 from '../assets/images/st4.jpg'
 import St5 from '../assets/images/st2.jpg'
 import { Link } from 'react-router-dom'
+import WOW from 'wowjs'
 
 class ImgMeny extends Component {
+
+    componentDidMount() {
+        function myFunction(x) {
+            if (x.matches) { // If media query matches
+                new WOW.WOW().init();
+            }
+        }
+        var x = window.matchMedia("(max-width: 700px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+
+    }
+
     render() {
         return (
             <Container>
@@ -19,7 +33,7 @@ class ImgMeny extends Component {
                         <Link to="/Konzervativna">
                             <div id="1" className="imageContainer m-2">
                                 <img src={St4} className="imageMeny p-2" width='100%'></img>
-                                <div className="popUpText">
+                                <div className="popUpText wow slideInUp" data-wow-duration="2s">
                                     <h3>Konzervativna stomatologija</h3>
                                     - Plombiranje zuba porcelanskim inlejima <br />
                                     - Plombiranje zuba savremenim kompozitnim materijalima <br />
@@ -33,7 +47,7 @@ class ImgMeny extends Component {
                         <Link to="/Estetska">
                             <div id="2" className="imageContainer m-2">
                                 <img src={St2} className="imageMeny p-2" width='100%'></img>
-                                <div className="popUpText">
+                                <div className="popUpText wow slideInUp" data-wow-duration="2s">
                                     <h3>Estetska stomatologija</h3>
                                     - Beljenje zuba <br />
                                     - Ugradnja nakita cirkona
@@ -47,7 +61,7 @@ class ImgMeny extends Component {
                         <Link to="/Protetika">
                             <div id="3" className="imageContainer m-2">
                                 <img src={St1} className="imageMeny p-2" width='100%'></img>
-                                <div className="popUpText">
+                                <div className="popUpText wow slideInUp" data-wow-duration="2s">
                                     <h3>Protetika</h3>
                                     - Izrada proteza <br />
                                     - Izrada livenih nadogradnji <br />
@@ -62,7 +76,7 @@ class ImgMeny extends Component {
                         <Link to="/Paradontologija">
                             <div id="4" className="imageContainer m-2">
                                 <img src={St3} className="imageMeny p-2" width='100%'></img>
-                                <div className="popUpText">
+                                <div className="popUpText wow slideInUp" data-wow-duration="2s">
                                     <h3>Paradontologija</h3>
                                     - Uklanjanje kamenca <br />
                                     - Uklanjanje mekih naslaga <br />
@@ -78,7 +92,7 @@ class ImgMeny extends Component {
                         <Link to="/Ortodoncija">
                             <div id="5" className="imageContainer m-2">
                                 <img src={St} className="imageMeny p-2" width='100%'></img>
-                                <div className="popUpText">
+                                <div className="popUpText wow slideInUp" data-wow-duration="2s">
                                     <h3>Ortodoncija</h3>
                                     - Ortodontski specijalistički pregledi <br />
                                     - Izrada mobilnih ortodontskih aparata <br />
@@ -91,7 +105,7 @@ class ImgMeny extends Component {
                         <Link to="/Hirurgija">
                             <div id="6" className="imageContainer m-2">
                                 <img src={imp} className="imageMeny p-2" width='100%'></img>
-                                <div className="popUpText">
+                                <div className="popUpText wow slideInUp" data-wow-duration="2s">
                                     <h3>Oralna hirurgija</h3>
                                     - Vađenje zuba <br />
                                     - Nivelacija grebena <br />
@@ -108,7 +122,7 @@ class ImgMeny extends Component {
                         <Link to="/Decija">
                             <div id="7" className="imageContainer m-2">
                                 <img src={St5} className="imageMeny p-2" width='100%'></img>
-                                <div className="popUpText">
+                                <div className="popUpText wow slideInUp" data-wow-duration="2s">
                                     <h3>Dečija stomatologija</h3>
                                     - Zalivanje fisura <br />
                                     - Plombiranje mlečnih i stalnih zuba <br />
