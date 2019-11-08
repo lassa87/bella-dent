@@ -15,7 +15,7 @@
   text-align: justify;
 }
 /* image meny front page.. media brakepoints on hover and/or animation start on scroll */
-@media screen and (min-width:600px){
+@media screen and (min-width:800px){
 .imageMeny {
   transition: all 1s linear;
 }
@@ -45,7 +45,7 @@
 /*END media brakepoints on hover */
 
 /* MEDIA BREAKPOINT FOR SMALL DISPLAYs */
-@media screen and (max-width:599px){
+@media screen and (max-width:799px){
   .imageContainer {
   position: relative;
   overflow: hidden;
