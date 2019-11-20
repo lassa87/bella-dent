@@ -7,15 +7,15 @@ class Hirurgija extends Component {
         return (
             <div>
                 <Slider />
-                <Container>
+                <Container className='contentBackground'>
                     <Row className="p-3">
                         <Col>
-                            <h3 className='textCenter'>Oralna hirurgija</h3>
-                            <p className='textCenter'>
+                            <h3 className='textCenter title'>Oralna hirurgija</h3>
+                            <p>
                                 Savremena stomatologija odgovarajućim hiruškim postupcima i primenom lokalne anestezije, omogućava bezbolne oralno-hiruške intervencije sa minimalnom traumom okolnih tkiva i retkim postoperativnim komplikacijama.
                             </p>
-                            <h4 className='textCenter'>Usluge koje nudimo iz ove oblasti:</h4>
-                            <p className='textCenter'>
+                            <h4 className='textCenter title'>Usluge koje nudimo iz ove oblasti:</h4>
+                            <p>
                                 - Vađenje zuba <br />
                                 - Vađenje impaktiranih zuba <br />
                                 - Operacije cisti i granuloma <br />

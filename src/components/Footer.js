@@ -16,12 +16,7 @@ class Footer extends Component {
                             </p>
                         </div>
                     </Col>
-                    <Col className="align-self-center">
-                        <h4>RADNO VREME:</h4>
-                        <p>
-                            A
-                        </p>
-                    </Col>
+
                 </Row>
                 <Row>
                     <Col>

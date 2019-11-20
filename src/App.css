@@ -14,6 +14,20 @@
 .textJustify {
   text-align: justify;
 }
+.contentBackground {
+  color: whitesmoke;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 1.2rem;
+  text-indent: 1rem;
+  text-align: justify;
+  letter-spacing: 0.15rem;
+  
+}
+.title {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      margin:2rem;
+    }
 /* image meny front page.. media brakepoints on hover and/or animation start on scroll */
 @media screen and (min-width:800px){
 .imageMeny {

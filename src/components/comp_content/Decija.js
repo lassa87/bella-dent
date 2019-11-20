@@ -9,11 +9,11 @@ class Decija extends Component {
         return (
             <div>
                 <Slider />
-                <Container>
+                <Container className='contentBackground'>
                     <Row className="p-3">
 
                         <Col>
-                            <h3 className="textCenter">Dečija stomatologija</h3>
+                            <h3 className="textCenter title">Dečija stomatologija</h3>
                             <p className='textJustify'>
                                 Dečija stomatologija ima za zadatak da deca steknu poverenje u stomatologa, da se podvrgnu preventivnom radu, da se izvrši pravovremeno i adekvatno lečenje.
                         </p>
@@ -27,12 +27,12 @@ class Decija extends Component {
                     </Row>
                     <Row className="p-3">
                         <Col>
-                            <h3 className='textCenter'>Fluorisanje zuba</h3>
-                            <p className='textJustify'>Se u ordinaciji „Dental “ vrši specijalnim sredstvima koja se nanose na zube, tretman traje 30 minuta i radi se dva puta godišnje. Sredstva koja se piju moraju biti ordinirana od strane stomatologa jer postoji vremenski period i doze kada se koriste.</p>
-                            <h3 className='textCenter'>Zalivanje fisura</h3>
-                            <p className='textJustify'>Je potpuno bezbolan tretman koji obezbeđuje zaštitu od karijesa na određenim predilekcionim mestima zuba – u fisurama zuba svih mlečnih I stalni pretkutnjaka I kutnjaka.
+                            <h3 className='textCenter title'>Fluorisanje zuba</h3>
+                            <p>Se u ordinaciji „Dental “ vrši specijalnim sredstvima koja se nanose na zube, tretman traje 30 minuta i radi se dva puta godišnje. Sredstva koja se piju moraju biti ordinirana od strane stomatologa jer postoji vremenski period i doze kada se koriste.</p>
+                            <h3 className='textCenter title'>Zalivanje fisura</h3>
+                            <p>Je potpuno bezbolan tretman koji obezbeđuje zaštitu od karijesa na određenim predilekcionim mestima zuba – u fisurama zuba svih mlečnih I stalni pretkutnjaka I kutnjaka.
                             Praćenje smene zuba</p>
-                            <p className='textCenter'>Pod budnim okom naših doktora prati se smena zuba, blagovremeno se može otkriti bilo koja anomalija i na vreme terapijski reagovati.</p>
+                            <p>Pod budnim okom naših doktora prati se smena zuba, blagovremeno se može otkriti bilo koja anomalija i na vreme terapijski reagovati.</p>
 
 
                         </Col>

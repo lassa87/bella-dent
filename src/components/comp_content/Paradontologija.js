@@ -7,18 +7,18 @@ class Paradontologija extends Component {
         return (
             <div>
                 <Slider />
-                <Container>
+                <Container className='contentBackground'>
                     <Row className="p-3">
                         <Col>
-                            <h3 className='textCenter'>Paradontologija</h3>
-                            <h4 className='textCenter'>Usluge koje pružamo iz ove oblasti:</h4>
+                            <h3 className='textCenter title'>Paradontologija</h3>
+                            <h4 className='textCenter title'>Usluge koje pružamo iz ove oblasti:</h4>
                             <p className='textCenter'>
                                 - Uklanjanje kamenca <br />
                                 - Parodontalne operacije <br />
                                 - Uklanjanje mekih naslaga <br />
                                 - Terapija parodontalnih džepova
                             </p>
-                            <h4 className='textCenter'>Paradontopatija</h4>
+                            <h4 className='textCenter title'>Paradontopatija</h4>
                             <p className='textCenter'>
                                 Parodontopatija je hronično oboljenje desni u uznapredovaloj fazi. Paradentoza je oboljenje potpornog aparata zuba (parodoncijuma), koje, ukoliko se ne leči, u svom poslednjem stadijumu dovodi do vidljivog povlačenja gingive, rasklaćenja i ispadanja zuba.
                         </p>
