@@ -17,10 +17,8 @@
 .contentBackground {
   color: whitesmoke;
   background-color: rgba(0,0,0,0.5);
-  font-size: 1.2rem;
-  text-indent: 1rem;
+  font-size: 1rem;
   text-align: justify;
-  letter-spacing: 0.15rem;
   
 }
 .title {
@@ -60,18 +58,32 @@
 
 /* MEDIA BREAKPOINT FOR SMALL DISPLAYs */
 @media screen and (max-width:799px){
+
+  .imageMeny {
+    transition: all 1s linear;
+  }
   .imageContainer {
-  position: relative;
-  overflow: hidden;
-}
-.popUpText {
-  position: absolute;
-  bottom: 5px;
-  width: 100%;
-  padding: 0.6rem;
-  font-size: 0.8rem;
-  background-color: rgba(0,0,0,0.5);
-  color:#12fe06;
-}
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .imageContainer:hover .imageMeny {
+    transform: scale(1.2);
+  }
+  .popUpText {
+    position: absolute;
+    bottom: 0;
+    transform: translate(100%, 100%);
+    transition: all 1s linear;
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: rgba(0,0,0,0.5);
+    color:#12fe06;
+  }
+  .imageContainer:hover .popUpText{
+    transform: translate(0,0);
+  }
+
   }
 /* END*** MEDIA BREAKPOINT FOR SMALL DISPLAYs */

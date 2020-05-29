@@ -14,7 +14,7 @@ class Ortodoncija extends Component {
                         <Col>
                             <h3 className='textCenter title'>Ortodoncija</h3>
                             <h4 className='textCenter title'>Mobilni ortodonski aparati</h4>
-                            <p className='textCenter'>
+                            <p>
                                 Mobilni ortodontski aparat se preporučuje pacijentima sa mlečnom ili mešovitom denticijom. Mobilna proteza se sastoji od akrilatnog dela i metalne žice u obliku luka ili kukica. Ovaj tip aparata se nosi noću i nekoliko sati tokom dana, a korisnici su uglavnom deca.
                             </p>
                         </Col>
