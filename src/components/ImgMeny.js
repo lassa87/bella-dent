@@ -26,7 +26,7 @@ class ImgMeny extends Component {
                                     - Plombiranje zuba amalgamom (siva plomba) <br />
                                     - Lečenje kanala korena zuba<br />
                                 <Link to="/Konzervativna">
-                                    <Button>Detaljnije</Button>
+                                    <Button outline color="success" size="sm">Detaljnije</Button>
                                 </Link>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ class ImgMeny extends Component {
                                     - Beljenje zuba <br />
                                     - Ugradnja nakita cirkona <br />
                                 <Link to="/Estetska">
-                                    <Button>Detaljnije</Button>
+                                    <Button outline color="success" size="sm">Detaljnije</Button>
                                 </Link>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ class ImgMeny extends Component {
                                     - Izrada cirkonijumskih krunica <br />
                                     - Izrada nadoknada na implantatima <br />
                                 <Link to="/Protetika">
-                                    <Button>Detaljnije</Button>
+                                    <Button outline color="success" size="sm">Detaljnije</Button>
                                 </Link>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ class ImgMeny extends Component {
                                     - Terapija parodntalnih džepova <br />
                                     - Parodontalne operacije.. <br />
                                 <Link to="/Paradontologija">
-                                    <Button>Detaljnije</Button>
+                                    <Button outline color="success" size="sm">Detaljnije</Button>
                                 </Link>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ class ImgMeny extends Component {
                                     - Izrada mobilnih ortodontskih aparata <br />
                                     - Izrada fiksnih ortodontskih aparata<br />
                                 <Link to="/Ortodoncija">
-                                    <Button>Detaljnije</Button>
+                                    <Button outline color="success" size="sm">Detaljnije</Button>
                                 </Link>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ class ImgMeny extends Component {
                                     - Ugradnja impantata <br />
                                     - Zatvaranje sinusa itd <br />
                                 <Link to="/Hirurgija">
-                                    <Button>Detaljnije</Button>
+                                    <Button outline color="success" size="sm">Detaljnije</Button>
                                 </Link>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ class ImgMeny extends Component {
                                     - Fluorisanje zuba <br />
                                     - Obučavanje pravilnoj higijeni usta <br />
                                 <Link to="/Decija">
-                                    <Button>Detaljnije</Button>
+                                    <Button outline color="success" size="sm">Detaljnije</Button>
                                 </Link>
                             </div>
                         </div>
