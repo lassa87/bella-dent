@@ -14,7 +14,6 @@ class Paradontologija extends Component {
                             <h4 className='textCenter title'>Usluge koje pružamo iz ove oblasti:</h4>
                             <p>
                                 - Uklanjanje kamenca <br />
-                                - Parodontalne operacije <br />
                                 - Uklanjanje mekih naslaga <br />
                                 - Terapija parodontalnih džepova
                             </p>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Slider from '../Carusel'
 import pl from '../../assets/images/pl1.jpg'
+import pl1 from '../../assets/images/21.jpg'
 
 class Konzervativna extends Component {
     render() {
@@ -20,8 +21,11 @@ class Konzervativna extends Component {
                                 Estetski ispuni, poznatije i kao bele plombe, su zubne plombe koje obnavljaju i oponašaju prirodan izgled strukture zuba.Osim što obnavljaju zube koji su napukli ili propali, bele plombe mogu se upotrebljavati u kozmetičke svrhe za promjenu veličine, boje i oblika zubi.Posebno su korisne pri zatvaranju praznina među zubima, popravljanju okrnjenih zuba i davanju ujednačenijeg i ravnijeg izgleda zuba.
                         </p>
                         </Col>
-                        <Col className="pt-3" md="5">
+                        <Col md="5" className="textCenter">
+
                             <img src={pl} width="100%" />
+                            <img src={pl1} width="100%" />
+
                         </Col>
                     </Row>
                 </Container>

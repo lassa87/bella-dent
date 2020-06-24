@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Slider from '../Carusel'
 import pr1 from '../../assets/images/protetika1.jpg'
-import pr2 from '../../assets/images/protetika21.jpg'
-import pr3 from '../../assets/images/protetika22.jpg'
+import pr2 from '../../assets/images/31.jpg'
+import pr3 from '../../assets/images/32.jpg'
+import pr4 from '../../assets/images/33.jpg'
 
 class Protetika extends Component {
     render() {
@@ -42,8 +43,9 @@ class Protetika extends Component {
                         </p>
                         </Col>
                         <Col md="5" className="textCenter">
-                            <img className="p-3" src={pr2} width='80%' />
-                            <img className="p-3" src={pr3} width='80%' />
+                            <img className="p-3" src={pr2} width='100%' />
+                            <img className="p-3" src={pr3} width='100%' />
+                            <img className="p-3" src={pr4} width='100%' />
                         </Col>
                     </Row>
                 </Container>
